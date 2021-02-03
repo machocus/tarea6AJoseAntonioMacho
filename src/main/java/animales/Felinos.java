@@ -46,6 +46,7 @@ public class Felinos extends Animales {
 
     @Override
     public String toString() {
+        super.toString();
         return "Felinos{" + "clase=" + clase + ", edad=" + edad + '}';
     }
 
