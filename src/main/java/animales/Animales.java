@@ -87,5 +87,12 @@ public class Animales {
         return true;
     }
     
-    
+    public void tieneCola (){
+        boolean tener;
+        if (cola==true){
+            System.out.println("Tiene cola");
+        } else {
+            System.out.println("No tiene cola");
+        }
+    }
 }

@@ -79,4 +79,21 @@ public class Felinos extends Animales {
         return true;
     }
 
+    public void tieneCola() {
+        boolean tener;
+        if (this.isCola() == true) {
+            System.out.println("El felino tiene cola");
+        } else {
+            System.out.println("El felino no tiene cola");
+        }
+    }
+
+    public void aparearse() {
+        System.out.println("Los felinos pueden aparearse");
+    }
+
+    public void situacion() {
+        System.out.println("Correr");
+    }
+
 }

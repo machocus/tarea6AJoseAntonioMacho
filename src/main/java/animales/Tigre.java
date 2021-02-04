@@ -10,11 +10,12 @@ package animales;
  * @author aguil
  */
 public class Tigre extends Felinos {
+
     private boolean estaenZoo;
 
     public Tigre() {
         super();
-        this.estaenZoo= false;
+        this.estaenZoo = false;
     }
 
     public Tigre(boolean estaenZoo, String clase, int edad, String nombre, int patas, boolean cola) {
@@ -52,5 +53,24 @@ public class Tigre extends Felinos {
         super.toString();
         return "Tigre{" + "estaenZoo=" + estaenZoo + '}';
     }
-    
+
+    public void tieneCola() {
+        boolean tener;
+        if (this.isCola() == true) {
+            System.out.println("El tigre tiene cola");
+        } else {
+            System.out.println("El tigre no tiene cola");
+        }
+    }
+
+    public boolean caza(boolean puedeCazar) {
+        boolean cazar = puedeCazar;
+        return cazar;
+    }
+
+    @Override
+    public void situacion() {
+        System.out.println("Comer");
+    }
+
 }

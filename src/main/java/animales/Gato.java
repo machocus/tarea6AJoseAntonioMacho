@@ -61,4 +61,23 @@ public class Gato extends Felinos {
         return "Gato{" + "duenio=" + duenio + '}';
     }
     
+      public void tieneCola (){
+        boolean tener;
+        if (this.isCola()==true){
+            System.out.println("El gato tiene cola");
+        } else {
+            System.out.println("El gato no tiene cola");
+        }
+    }
+
+       public String  raza(String raza){
+           String razita = raza;
+           return razita;
+       }
+       
+     @Override
+    public void situacion() {
+        System.out.println("Cazar");
+    }
+
 }
